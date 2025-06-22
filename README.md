@@ -1,73 +1,180 @@
-# Welcome to your Lovable project
 
-## Project info
+# RS Classes Shikrapur - Educational Website
 
-**URL**: https://lovable.dev/projects/65b25974-9dc4-4a12-aef8-75908779515e
+A modern, responsive website for RS Classes Shikrapur, a premier coaching institute in Pune specializing in JEE, NEET, CET preparation and foundation courses.
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+### Design & User Experience
+- **Modern Educational Theme**: Professional blue/orange color scheme
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Smooth Animations**: CSS animations and transitions throughout
+- **Interactive Elements**: Hover effects, smooth scrolling, and micro-interactions
 
-**Use Lovable**
+### Sections
+- **Header/Navigation**: Fixed navigation with smooth scrolling
+- **Hero Section**: Compelling banner with call-to-action buttons
+- **About Us**: Institution information with animated statistics
+- **Courses Section**: Foundation, JEE, NEET, and CET course details
+- **Batches**: Schedule information with flexible timings
+- **Testimonials**: Student success stories carousel
+- **Gallery**: Photo grid with lightbox and hover effects
+- **Contact**: Contact form with address and contact details
+- **Moving Ticker**: Recent updates banner
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/65b25974-9dc4-4a12-aef8-75908779515e) and start prompting.
+### Special Features
+- **Enquiry Modal**: Pop-up form for course enquiries
+- **Animated Counters**: Statistics animation on scroll
+- **Image Gallery**: Lightbox effect for enhanced viewing
+- **Form Validation**: Client-side form validation
+- **Notification System**: Success/error message notifications
+- **Mobile Menu**: Responsive hamburger navigation
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Technologies Used
 
-**Use your preferred IDE**
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Styling**: Custom CSS with CSS Grid and Flexbox
+- **Animations**: CSS keyframes and transitions
+- **Responsive Design**: Mobile-first approach
+- **Performance**: Optimized images and efficient code
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📱 Responsive Breakpoints
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Desktop**: 1200px and above
+- **Tablet**: 768px - 1199px
+- **Mobile**: Below 768px
 
-Follow these steps:
+## 🎨 Color Scheme
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Primary Blue**: #2563eb
+- **Secondary Orange**: #f97316
+- **Accent Cyan**: #06b6d4
+- **Text Dark**: #1f2937
+- **Text Light**: #6b7280
+- **Background Light**: #f8fafc
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📧 Contact Information
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Address**: RS Classes Building, Main Road, Shikrapur, Pune - 412208
+- **Phone**: +91 9876543210, +91 8765432109
+- **Email**: info@rsclassesshikrapur.com
+- **Office Hours**: Monday - Saturday, 9:00 AM - 8:00 PM
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🚀 Deployment Instructions
+
+### Option 1: Netlify Deployment
+
+1. **Prepare your files**:
+   ```bash
+   # Make sure all files are in the root directory:
+   # - index.html
+   # - src/styles.css
+   # - src/main.js
+   ```
+
+2. **Deploy to Netlify**:
+   - Go to [netlify.com](https://netlify.com)
+   - Drag and drop your project folder
+   - Your site will be live instantly
+
+3. **Custom Domain (Optional)**:
+   - Go to Site Settings > Domain Management
+   - Add your custom domain
+   - Configure DNS settings as instructed
+
+### Option 2: GitHub Pages
+
+1. **Create a GitHub repository**
+2. **Upload files** to the repository
+3. **Enable Pages**:
+   - Go to Settings > Pages
+   - Select source branch (usually main)
+   - Your site will be available at `username.github.io/repository-name`
+
+### Option 3: Traditional Web Hosting
+
+1. **Upload files** to your web hosting provider via FTP/cPanel
+2. **Ensure proper file structure**:
+   ```
+   public_html/
+   ├── index.html
+   ├── src/
+   │   ├── styles.css
+   │   └── main.js
+   └── images/ (if any)
+   ```
+
+## 🔧 Customization Guide
+
+### Colors
+Edit CSS variables in `src/styles.css`:
+```css
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #f97316;
+  /* Modify these values */
+}
 ```
 
-**Edit a file directly in GitHub**
+### Content
+Update content directly in `index.html`:
+- Course information
+- Contact details
+- Testimonials
+- Gallery images
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Animations
+Modify animation timing and effects in `src/styles.css`:
+```css
+@keyframes fadeInUp {
+  /* Customize animation */
+}
+```
 
-**Use GitHub Codespaces**
+## 📊 SEO Optimization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Meta Tags**: Proper title, description, and keywords
+- **Semantic HTML**: Structured content with appropriate tags
+- **Image Alt Text**: Descriptive alt attributes for all images
+- **Schema Markup**: Can be added for enhanced search results
+- **Performance**: Optimized CSS and JavaScript
 
-## What technologies are used for this project?
+## 🧪 Browser Compatibility
 
-This project is built with:
+- **Chrome**: 80+
+- **Firefox**: 75+
+- **Safari**: 13+
+- **Edge**: 80+
+- **Mobile Browsers**: All modern mobile browsers
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📞 Support
 
-## How can I deploy this project?
+For technical support or customization requests, contact:
+- **Developer**: Available for maintenance and updates
+- **Email**: developer@rsclassesshikrapur.com
 
-Simply open [Lovable](https://lovable.dev/projects/65b25974-9dc4-4a12-aef8-75908779515e) and click on Share -> Publish.
+## 📄 License
 
-## Can I connect a custom domain to my Lovable project?
+This website is proprietary to RS Classes Shikrapur. All rights reserved.
 
-Yes, you can!
+## 🎯 Performance Tips
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. **Image Optimization**: Use WebP format when possible
+2. **Lazy Loading**: Implement for gallery images
+3. **Minification**: Minify CSS and JS for production
+4. **CDN**: Use a Content Delivery Network for faster loading
+5. **Caching**: Implement browser caching headers
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🔄 Future Enhancements
+
+- Online admission portal
+- Student dashboard
+- Online fee payment
+- Video testimonials
+- Virtual campus tour
+- Blog/news section
+- Multi-language support
+
+---
+
+**Built with ❤️ for RS Classes Shikrapur**
